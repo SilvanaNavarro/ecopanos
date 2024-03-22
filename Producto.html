@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="preload" href="css/Style.css" as="Style">
+    <link rel="stylesheet" href="css/Style.css" as="Style">
+    <link rel="preload" href="css/Normalize.css" as="Style">
+    <link rel="stylesheet" href="css/Normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Caveat:wght@400;700&display=swap" rel="stylesheet">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front End Store</title>
+</head>
+<body>
+    <header class="header">
+        <a href="index.html">
+            <img class="header__logo" src="img/Logotipo.jpg" alt="Logotipo">
+        </a>
+    </header>
+
+    <nav class="navegacion">
+        <a class="navegacion__enlace" href="index.html">Tienda</a>
+        <a class="navegacion__enlace" href="Nosotros.html">Nosotros</a>
+    </nav>
+
+    <main class="contenedor">
+        <div class="camiseta">
+            <img class="camiseta__imagen" src="img/1.jpg"">
+            <div class="camiseta__contenido">
+                <p>Proin bibendum diam nulla, id consequat nisi congue nec. 
+                    In sit amet dui ut nisi bibendum ullamcorper. Nulla pellentesque, elit sit amet vestibulum dictum, quam diam fermentum nisi, eu vulputate enim massa eget lorem. 
+                    Morbi id urna ex. Morbi lacinia ut mauris vitae scelerisque. Pellentesque iaculis turpis sit amet mattis gravida. Duis malesuada aliquet eros eget placerat. 
+                    Nunc varius sapien et accumsan laoreet.</p>
+            </div>
+            <form class="formulario">              
+                <select class="formulario__campo" >
+                    <option disabled selected> -- Seleccionar talla -- </option>
+                    <option>S</option>
+                    <option>M</option>
+                    <option>L</option>
+                    <option>XL</option> 
+                </select> 
+                <input class="formulario__campo" type="number" min="1" placeholder="Cantidad">  
+                <input class="formulario__boton" type="submit" value="Agregar al carrito">            
+            </form>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p class="footer__texto"> Todos los derechos reservados. Silvana Navarro Medel</p>
+    </footer>
+    
+</body>
+</html>
